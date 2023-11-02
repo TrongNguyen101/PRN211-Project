@@ -1,0 +1,48 @@
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Workspace\.NET solution\CoffeeShop\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\bin\Debug\net6.0\BusinessObject.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\bin\Debug\net6.0\BusinessObject.pdb
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\bin\Debug\net6.0\BusinessObject.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\bin\Debug\net6.0\BusinessObject.pdb
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
