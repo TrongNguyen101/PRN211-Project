@@ -699,3 +699,14 @@ D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\CoffeeShopWebApplication\obj\Deb
 D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.pdb
 D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.genruntimeconfig.cache
 D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\ref\CoffeeShopWebApplication.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.csproj.AssemblyReference.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.AssemblyInfoInputs.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.AssemblyInfo.cs
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.csproj.CoreCompileInputs.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.RazorAssemblyInfo.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.RazorAssemblyInfo.cs
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\refint\CoffeeShopWebApplication.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\obj\Debug\net6.0\CoffeeShopWebApplication.pdb

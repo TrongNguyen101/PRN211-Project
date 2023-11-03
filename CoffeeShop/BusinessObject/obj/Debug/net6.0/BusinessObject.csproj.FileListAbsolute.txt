@@ -40,3 +40,17 @@ D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\BusinessObject\obj\Debug\net6.0\
 D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
 D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
 D:\Filecode_lap_Acer\Fall2023\PRN211\CoffeeShop\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\bin\Debug\net6.0\BusinessObject.runtimeconfig.json
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\BusinessObject.genruntimeconfig.cache
+C:\Workspace\PRN211_Project\CoffeeShop\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll
