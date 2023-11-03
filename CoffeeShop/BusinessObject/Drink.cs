@@ -1,16 +1,26 @@
-﻿namespace BusinessObject;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+
+namespace BusinessObject;
 
 public partial class Drink
 {
-    public int DrinksId { get; set; }
+    [Key]
+    public int DrinkId { get; set; }
 
-    public string DrinksName { get; set; } = null!;
+    [StringLength(50)]
+    public string DrinkName { get; set; } = null!;
 
+    public int TypeOfDrink { get; set; }
+
+    [Column(TypeName = "money")]
     public decimal Price { get; set; }
 
     public int Status { get; set; }
 
-    public int TypeOfDrinks { get; set; }
-
-    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+    [InverseProperty("Drink")]
+    public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 }

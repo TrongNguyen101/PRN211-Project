@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 namespace BusinessObject;
 
@@ -13,9 +15,13 @@ public partial class CoffeeShopContext : DbContext
     {
     }
 
+    public virtual DbSet<Account> Accounts { get; set; }
+
     public virtual DbSet<Drink> Drinks { get; set; }
 
     public virtual DbSet<Order> Orders { get; set; }
+
+    public virtual DbSet<OrderDetail> OrderDetails { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
@@ -23,26 +29,20 @@ public partial class CoffeeShopContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Drink>(entity =>
-        {
-            entity.HasKey(e => e.DrinksId);
-
-            entity.Property(e => e.DrinksName).HasMaxLength(50);
-            entity.Property(e => e.Price).HasColumnType("money");
-        });
-
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.ToTable("Order");
+            entity.HasOne(d => d.Account).WithMany(p => p.Orders).HasConstraintName("FK_Order_Accounts");
+        });
 
-            entity.Property(e => e.OrderId).ValueGeneratedNever();
-            entity.Property(e => e.TimeOrder).HasColumnType("datetime");
-            entity.Property(e => e.Total).HasColumnType("money");
-
-            entity.HasOne(d => d.Drinks).WithMany(p => p.Orders)
-                .HasForeignKey(d => d.DrinksId)
+        modelBuilder.Entity<OrderDetail>(entity =>
+        {
+            entity.HasOne(d => d.Drink).WithMany(p => p.OrderDetails)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Order_Drinks");
+                .HasConstraintName("FK_OrderDetail_Drinks");
+
+            entity.HasOne(d => d.Order).WithMany(p => p.OrderDetails)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_OrderDetail_Order");
         });
 
         OnModelCreatingPartial(modelBuilder);

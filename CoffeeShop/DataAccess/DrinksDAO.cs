@@ -48,7 +48,7 @@ namespace DataAccess
             try
             {
                 using var context = new CoffeeShopContext();
-                drink = context.Drinks.SingleOrDefault(d => d.DrinksId == drinksId);
+                drink = context.Drinks.SingleOrDefault(d => d.DrinkId == drinksId);
                 context.SaveChanges();
             }
             catch (Exception ex)
@@ -65,7 +65,7 @@ namespace DataAccess
         {
             try
             {
-                Drink _drink = GetDrinksById(drink.DrinksId);
+                Drink _drink = GetDrinksById(drink.DrinkId);
                 if(_drink == null)
                 {
                     using var context = new CoffeeShopContext();
@@ -90,7 +90,7 @@ namespace DataAccess
         {
             try
             {
-                Drink _drink = GetDrinksById(drink.DrinksId);
+                Drink _drink = GetDrinksById(drink.DrinkId);
                 if(_drink != null)
                 {
                     using var context = new CoffeeShopContext();
