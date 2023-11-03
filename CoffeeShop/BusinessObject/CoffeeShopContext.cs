@@ -17,6 +17,8 @@ public partial class CoffeeShopContext : DbContext
 
     public virtual DbSet<Account> Accounts { get; set; }
 
+    public virtual DbSet<CoffeeTable> CoffeeTables { get; set; }
+
     public virtual DbSet<Drink> Drinks { get; set; }
 
     public virtual DbSet<Order> Orders { get; set; }
@@ -32,6 +34,10 @@ public partial class CoffeeShopContext : DbContext
         modelBuilder.Entity<Order>(entity =>
         {
             entity.HasOne(d => d.Account).WithMany(p => p.Orders).HasConstraintName("FK_Order_Accounts");
+
+            entity.HasOne(d => d.Table).WithMany(p => p.Orders)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Order_CoffeeTables");
         });
 
         modelBuilder.Entity<OrderDetail>(entity =>

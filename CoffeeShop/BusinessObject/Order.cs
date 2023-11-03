@@ -27,4 +27,8 @@ public partial class Order
 
     [InverseProperty("Order")]
     public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
+
+    [ForeignKey("TableId")]
+    [InverseProperty("Orders")]
+    public virtual CoffeeTable Table { get; set; } = null!;
 }
