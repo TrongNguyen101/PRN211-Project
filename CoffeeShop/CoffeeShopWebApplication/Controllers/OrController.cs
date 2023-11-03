@@ -10,16 +10,17 @@ using DataAccess.Repository;
 
 namespace CoffeeShopWebApplication.Controllers
 {
-    public class OrdersController : Controller
+    public class OrController : Controller
     {
         public IOrderRepository orderRepository = new OrderRepository();
         public IDrinksRepository drinkRepository = new DrinksRepository();
-        public OrdersController() => orderRepository = new OrderRepository();
+        IDictionary<int, Drink> table = new Dictionary<int, Drink>();
+        public OrController() => orderRepository = new OrderRepository();
 
         // GET: Orders
         public IActionResult Index()
         {
-            
+            //table.Add(orderRepository., Drink);
             var orderList = orderRepository.GetAllOrders();
             return View(orderList);
         }
@@ -44,7 +45,9 @@ namespace CoffeeShopWebApplication.Controllers
         // GET: Orders/Create
         public IActionResult Create()
         {
-            //ViewData["DrinksId"] = new SelectList(_context.Drinks, "DrinksId", "DrinksName");
+            ViewData["DrinksId"] = new SelectList(drinkRepository.GetAllDrinks(), "DrinksName", "DrinksId");
+            //ViewData["DrinksName"] = new SelectList(drinkRepository.GetAllDrinks(), "DrinksName");
+
 
             return View();
         }
@@ -54,14 +57,14 @@ namespace CoffeeShopWebApplication.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([Bind("OrderId,DrinksId,DrinkQuantity,DrinkNote,TimeOrder,Total,StatusOrder,TableId")] Order order)
+        public IActionResult Create([Bind("DrinksId,DrinkQuantity,DrinkNote,TimeOrder,Total,StatusOrder,TableId")] Order order)
         {
             if (ModelState.IsValid)
             {
                 orderRepository.AddOrder(order);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DrinksId"] = new SelectList(drinksRepository.GetAll(), "DrinksId", "DrinksName", order.DrinksId);
+            ViewData["DrinksId"] = new SelectList(drinkRepository.GetAllDrinks(), "DrinksId", "DrinksName");
             return View(order);
         }
 

@@ -13,7 +13,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.DrinksName)
+                @Html.DisplayNameFor(model => model.DrinkName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Price)
@@ -22,7 +22,7 @@
                 @Html.DisplayNameFor(model => model.Status)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.TypeOfDrinks)
+                @Html.DisplayNameFor(model => model.TypeOfDrink)
             </th>
             <th></th>
         </tr>
@@ -31,7 +31,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.DrinksName)
+                @Html.DisplayFor(modelItem => item.DrinkName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
@@ -40,12 +40,12 @@
                 @Html.DisplayFor(modelItem => item.Status)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TypeOfDrinks)
+                @Html.DisplayFor(modelItem => item.TypeOfDrink)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.DrinksId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.DrinksId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.DrinksId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.DrinkId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.DrinkId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.DrinkId">Delete</a>
             </td>
         </tr>
 }

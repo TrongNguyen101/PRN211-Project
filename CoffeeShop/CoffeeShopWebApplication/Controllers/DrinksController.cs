@@ -52,7 +52,7 @@ namespace CoffeeShopWebApplication.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([Bind("DrinksId,DrinksName,Price,Status,TypeOfDrinks")] Drink drink)
+        public IActionResult Create([Bind("DrinkId,DrinkName,Price,Status,TypeOfDrink")] Drink drink)
         {
             if (ModelState.IsValid)
             {
@@ -83,9 +83,9 @@ namespace CoffeeShopWebApplication.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, [Bind("DrinksId,DrinksName,Price,Status,TypeOfDrinks")] Drink drink)
+        public IActionResult Edit(int id, [Bind("DrinkId,DrinkName,Price,Status,TypeOfDrink")] Drink drink)
         {
-            if (id != drink.DrinksId)
+            if (id != drink.DrinkId)
             {
                 return NotFound();
             }
@@ -98,7 +98,7 @@ namespace CoffeeShopWebApplication.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (drink.DrinksId.ToString() == null)
+                    if (drink.DrinkId.ToString() == null)
                     {
                         return NotFound();
                     }
