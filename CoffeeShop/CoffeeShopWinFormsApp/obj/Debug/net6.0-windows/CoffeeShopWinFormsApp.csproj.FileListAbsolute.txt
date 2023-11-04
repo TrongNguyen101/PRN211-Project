@@ -1,205 +1,74 @@
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.exe
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.deps.json
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.runtimeconfig.json
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.pdb
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Azure.Core.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Azure.Identity.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Humanizer.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Memory.Data.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Text.Json.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.AssemblyReference.cache
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.Form1.resources
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.GenerateResource.cache
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.AssemblyInfoInputs.cache
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.AssemblyInfo.cs
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.CoreCompileInputs.cache
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.CopyComplete
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\refint\CoffeeShopWinFormsApp.dll
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.pdb
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.genruntimeconfig.cache
-C:\Workspace\.NET solution\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\ref\CoffeeShopWinFormsApp.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.exe
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.deps.json
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.runtimeconfig.json
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.pdb
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Azure.Core.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Azure.Identity.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Humanizer.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Memory.Data.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Text.Json.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.AssemblyReference.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.Form1.resources
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.GenerateResource.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.AssemblyInfoInputs.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.AssemblyInfo.cs
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.CoreCompileInputs.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.CopyComplete
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\refint\CoffeeShopWinFormsApp.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.pdb
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.genruntimeconfig.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\.PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\ref\CoffeeShopWinFormsApp.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.exe
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.deps.json
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.runtimeconfig.json
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.pdb
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Azure.Core.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Azure.Identity.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Humanizer.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Memory.Data.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Text.Json.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.AssemblyReference.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.frm_DrinksManagement.resources
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.Form1.resources
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.GenerateResource.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.AssemblyInfoInputs.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.AssemblyInfo.cs
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.CoreCompileInputs.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.CopyComplete
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\refint\CoffeeShopWinFormsApp.dll
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.pdb
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.genruntimeconfig.cache
-D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\ref\CoffeeShopWinFormsApp.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.exe
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.deps.json
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.runtimeconfig.json
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\CoffeeShopWinFormsApp.pdb
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\BusinessObject.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\DataAccess.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\BusinessObject.pdb
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\bin\Debug\net6.0-windows\DataAccess.pdb
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.AssemblyReference.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.frm_DrinksManagement.resources
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.GenerateResource.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.AssemblyInfoInputs.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.AssemblyInfo.cs
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.CoreCompileInputs.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.csproj.CopyComplete
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\refint\CoffeeShopWinFormsApp.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.pdb
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.genruntimeconfig.cache
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\ref\CoffeeShopWinFormsApp.dll
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.frmDrinkDetails.resources
+C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWinFormsApp\obj\Debug\net6.0-windows\CoffeeShopWinFormsApp.AddNewDrink.resources
