@@ -34,8 +34,8 @@ namespace CoffeeShopWebApplication.Controllers
             //else
             //{
                 ViewData["ListDrink"] = orderDetailRepository.GetOrderDetail(orderRepository.GetOrderJustCreate(tableId).OrderId);
-           // }
-
+            // }
+            int a;
 
             return View();
         }
