@@ -10,9 +10,9 @@ namespace DataAccess
         {
             get
             {
-                lock(lockInstance)
+                lock (lockInstance)
                 {
-                    if(instance == null)
+                    if (instance == null)
                     {
                         instance = new OrderDAO();
                     }
@@ -41,7 +41,7 @@ namespace DataAccess
         #endregion
 
         #region Get Order By TableId
-        public Order GetOrderByTableId(int tableId) 
+        public Order GetOrderByTableId(int tableId)
         {
             Order table = null;
             try
@@ -86,17 +86,17 @@ namespace DataAccess
         {
             try
             {
-                Order _order = GetOrderById(order.OrderId);
-                if (_order == null)
-                {
-                    using var context = new CoffeeShopContext();
-                    context.Orders.Add(order);
-                    context.SaveChanges();
-                }
-                else
-                {
-                    throw new Exception("The order is already exist.");
-                }
+                //Order _order = GetOrderById(order.OrderId);
+                //if (_order == null)
+                //{
+                using var context = new CoffeeShopContext();
+                context.Orders.Add(order);
+                context.SaveChanges();
+                //}
+                //else
+                //{
+                //    throw new Exception("The order is already exist.");
+                //}
             }
             catch (Exception ex)
             {
@@ -153,6 +153,63 @@ namespace DataAccess
 
                 throw new Exception(ex.Message);
             }
+        }
+        #endregion
+
+        #region get orderId just create 
+        public Order GetOrderJustCreate(int tableId)
+        {
+            var order = new Order();
+            try
+            {
+                using var context = new CoffeeShopContext();
+                order = context.Orders.SingleOrDefault(o => o.TableId == tableId && o.OrderStatus == 0);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception(ex.Message);
+            }
+            return order;
+        }
+        #endregion
+
+        #region get table that just create order
+        public Order GetTableJustCreateOrder(int orderId)
+        {
+            var order = new Order();
+            try
+            {
+                using var context = new CoffeeShopContext();
+                order = context.Orders.SingleOrDefault(o => o.OrderId == orderId && o.OrderStatus == 0);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception(ex.Message);
+            }
+            return order;
+        }
+        #endregion
+
+        #region get Table number just create 
+        public CoffeeTable GetTableNumberJustCreate(int tableId)
+        {
+            var coffeeTable = new CoffeeTable();
+            try
+            {
+                using var context = new CoffeeShopContext();
+                coffeeTable = context.CoffeeTables.SingleOrDefault(o => o.TableId == tableId);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception(ex.Message);
+            }
+            return coffeeTable;
         }
         #endregion
     }

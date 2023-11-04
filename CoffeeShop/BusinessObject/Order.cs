@@ -19,7 +19,7 @@ public partial class Order
     [Column(TypeName = "datetime")]
     public DateTime OrderDate { get; set; }
 
-    public int? AccountId { get; set; }
+    public int? AccountId { get; set; } = null!;//cho nay co sua ne
 
     [ForeignKey("AccountId")]
     [InverseProperty("Orders")]
