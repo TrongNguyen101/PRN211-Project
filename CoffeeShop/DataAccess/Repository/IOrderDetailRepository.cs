@@ -12,7 +12,7 @@ namespace DataAccess.Repository
         IEnumerable<OrderDetail> GetOrderDetail(int orderId);
         OrderDetail GetOrderDetailByIdDrinkAndOrder(int orderId, int drinkId);
         void AddDrinkDetail(OrderDetail drinkDetail);
-        void UpdateDrinkDetail(int orderId, int drinkId);
+        void UpdateDrinkDetail(OrderDetail drinkDetail);
         void DeleteDrinkDetail(int orderId, int drinkId);
     }
 }

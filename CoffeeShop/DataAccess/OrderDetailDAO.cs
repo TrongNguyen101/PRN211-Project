@@ -109,15 +109,16 @@ namespace DataAccess
         #endregion
 
         #region Update Drinks
-        public void UpdateOrderDetail(int orderId, int drinkId)
+        public void UpdateOrderDetail(OrderDetail newOrderDetail)
         {
             try
             {
-                OrderDetail orderDetail = GetOrderDetailByIdDrinkAndOrder(orderId, drinkId);
-                
+               
                     using var context = new CoffeeShopContext();
-                    context.OrderDetails.Update(orderDetail);
+                    context.OrderDetails.Update(newOrderDetail);
                     context.SaveChanges();
+                
+                    
                 
             }
             catch (Exception ex)

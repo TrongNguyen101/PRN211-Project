@@ -16,7 +16,7 @@ namespace DataAccess.Repository
         void AddCoffeeTable(CoffeeTable coffeeTable);
        // void UpdateCoffeeTable(CoffeeTable coffeeTable);
         void DeleteCoffeeTable(int coffeeTableId);
-        bool CheckTableAvailable(int coffeeTableId);
+        IEnumerable<Order> CheckTableAvailable(int coffeeTableId);
 
     }
 }

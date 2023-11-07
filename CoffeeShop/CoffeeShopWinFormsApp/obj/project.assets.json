@@ -3223,23 +3223,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PT3012\\.nuget\\packages\\": {},
+    "C:\\Users\\bang1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\PRN211_Project\\CoffeeShop\\CoffeeShopWinFormsApp\\CoffeeShopWinFormsApp.csproj",
+      "projectUniqueName": "D:\\Filecode_lap_Acer\\Fall2023\\PRN211\\Project\\PRN211-Project\\CoffeeShop\\CoffeeShopWinFormsApp\\CoffeeShopWinFormsApp.csproj",
       "projectName": "CoffeeShopWinFormsApp",
-      "projectPath": "C:\\Workspace\\PRN211_Project\\CoffeeShop\\CoffeeShopWinFormsApp\\CoffeeShopWinFormsApp.csproj",
-      "packagesPath": "C:\\Users\\PT3012\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\PRN211_Project\\CoffeeShop\\CoffeeShopWinFormsApp\\obj\\",
+      "projectPath": "D:\\Filecode_lap_Acer\\Fall2023\\PRN211\\Project\\PRN211-Project\\CoffeeShop\\CoffeeShopWinFormsApp\\CoffeeShopWinFormsApp.csproj",
+      "packagesPath": "C:\\Users\\bang1\\.nuget\\packages\\",
+      "outputPath": "D:\\Filecode_lap_Acer\\Fall2023\\PRN211\\Project\\PRN211-Project\\CoffeeShop\\CoffeeShopWinFormsApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\PT3012\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bang1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3255,11 +3255,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Workspace\\PRN211_Project\\CoffeeShop\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Workspace\\PRN211_Project\\CoffeeShop\\BusinessObject\\BusinessObject.csproj"
+            "D:\\Filecode_lap_Acer\\Fall2023\\PRN211\\Project\\PRN211-Project\\CoffeeShop\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "D:\\Filecode_lap_Acer\\Fall2023\\PRN211\\Project\\PRN211-Project\\CoffeeShop\\BusinessObject\\BusinessObject.csproj"
             },
-            "C:\\Workspace\\PRN211_Project\\CoffeeShop\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Workspace\\PRN211_Project\\CoffeeShop\\DataAccess\\DataAccess.csproj"
+            "D:\\Filecode_lap_Acer\\Fall2023\\PRN211\\Project\\PRN211-Project\\CoffeeShop\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\Filecode_lap_Acer\\Fall2023\\PRN211\\Project\\PRN211-Project\\CoffeeShop\\DataAccess\\DataAccess.csproj"
             }
           }
         }
@@ -3318,7 +3318,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

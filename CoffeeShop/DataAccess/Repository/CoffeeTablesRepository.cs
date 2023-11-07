@@ -15,7 +15,7 @@ namespace DataAccess.Repository
         public IEnumerable<CoffeeTable> GetAllCoffeeTables() => CoffeeTableDAO.Instance.GetCoffeeTableList();
         public void AddCoffeeTable(CoffeeTable coffeeTable) => CoffeeTableDAO.Instance.AddCoffeeTable(coffeeTable);
         public void DeleteCoffeeTable(int coffeeTableId) => CoffeeTableDAO.Instance.DeleteCoffeeTable(coffeeTableId);
-        public bool CheckTableAvailable(int coffeeTableId) => CoffeeTableDAO.Instance.CheckTableAvailable(coffeeTableId);
+        public IEnumerable<Order> CheckTableAvailable(int coffeeTableId) => CoffeeTableDAO.Instance.CheckTableAvailable(coffeeTableId);
 
        // public void UpdateCoffeeTable(CoffeeTable coffeeTable) => DrinksDAO.Instance.UpdateDrinks(drink);
     }

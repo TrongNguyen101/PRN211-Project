@@ -1,9 +1,13 @@
 ﻿@model IEnumerable<BusinessObject.CoffeeTable>
 
-@{
-    ViewData["Title"] = "Index";
-}
 
+@{
+    ViewData["Title"] = "Home";
+}
+@{
+    var listOrder = ViewData["listTableHaveOrder"] as IEnumerable<BusinessObject.Order>;
+}
+@*
 <h1>Index</h1>
 
 <p>
@@ -32,4 +36,194 @@
             </tr>
         }
     </tbody>
-</table>
+</table> *@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+        }
+
+        .navbar {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .user-account {
+            cursor: pointer;
+        }
+
+        .tables-container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            justify-content: left;
+        }
+
+        .table {
+            background: #a0522d;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .tableAvailable {
+            background: #008000;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .create-invoice-btn {
+            margin-top: 10px;
+            text-decoration: none;
+            padding: 5px 10px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .table-number {
+            color: white;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .controls {
+            text-align: left;
+            margin: 20px;
+        }
+
+        .control-btn {
+            padding: 10px 15px;
+            margin: 0 10px;
+            background: #555;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .control-btn:first-child {
+                background: #008CBA;
+            }
+
+            .control-btn:last-child {
+                background: #f44336;
+            }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333; /* Màu nền cho thanh navigation */
+        }
+
+            /* Style cho các links bên trong thanh navigation */
+            .navbar a {
+                float: left;
+                display: block;
+                color: #f2f2f2; /* Màu chữ cho các items */
+                text-align: center; /* Căn giữa chữ trong các items */
+                padding: 14px 16px; /* Khoảng cách padding cho các items */
+                text-decoration: none; /* Bỏ gạch chân dưới chữ */
+            }
+
+                /* Thay đổi màu khi hover qua các items */
+                .navbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+            /* Style để căn giữa các items (sử dụng flexbox) */
+            .navbar .nav-container {
+                display: flex;
+                justify-content: center;
+                height: 100%;
+            }
+
+            /* Đảm bảo các items không bị căn giữa theo chiều dọc nếu thanh navigation có chiều cao lớn hơn */
+            .navbar a {
+                align-self: center;
+            }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-container">
+           
+            <a asp-action="ViewListTable" asp-route-accId="@ViewBag.accId">Table management</a>
+            <a asp-area="" asp-controller="Drinks" asp-action="Index">Drinks management</a>
+            <a asp-area="" asp-controller="Orders" asp-action="Index">Orders management</a>
+            <a asp-area="" asp-controller="Accounts" asp-action="Index">Account management</a>
+        </div>
+    </div>
+
+
+
+    <div class="tables-container">
+
+
+        @foreach (var item in Model)
+        {
+            bool check = false;
+
+
+            foreach (var order in listOrder)
+            {
+                if (item.TableId == order.TableId)
+                {
+                    check = true;
+                }
+
+            }
+            if (check)
+            {
+                <div class="tableAvailable">
+                    <div class="table-number">@Html.DisplayFor(modelItem => item.TableNumber)</div>
+                    <a class="create-invoice-btn" asp-action="Create" asp-controller="Orders" asp-route-_tableId="@item.TableId" asp-route-accId="@ViewBag.accId">Edit Order</a>
+
+                </div>
+            }
+            else
+            {
+                <div class="table">
+                    <div class="table-number">@Html.DisplayFor(modelItem => item.TableNumber)</div>
+                    <a class="create-invoice-btn" asp-action="Create" asp-controller="Orders" asp-route-_tableId="@item.TableId" asp-route-accId="@ViewBag.accId">Order</a>
+
+                </div>
+            }
+
+
+
+        }
+        <!-- Repeat the above div for more tables -->
+    </div>
+
+</body>
+</html>

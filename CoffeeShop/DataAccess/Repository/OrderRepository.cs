@@ -4,7 +4,7 @@ namespace DataAccess.Repository
 {
     public class OrderRepository : IOrderRepository
     {
-        public Order GetOrtherbyId(int id) => OrderDAO.Instance.GetOrderById(id);
+        public Order GetOrderbyId(int id) => OrderDAO.Instance.GetOrderById(id);
         public Order GetOrderJustCreate(int tableId) => OrderDAO.Instance.GetOrderJustCreate(tableId);
         public Order GetTableJustCreateOrder(int orderId) => OrderDAO.Instance.GetTableJustCreateOrder(orderId);
         public IEnumerable<Order> GetAllOrders() => OrderDAO.Instance.GetOrderList();

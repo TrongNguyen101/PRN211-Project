@@ -1,0 +1,88 @@
+﻿@model IEnumerable<BusinessObject.Account>
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Index";
+    string staffName = HttpContextAccessor.HttpContext.Session.GetString("staffName");
+    int? accountId = HttpContextAccessor.HttpContext.Session.GetInt32("accountID");
+}
+
+<style>
+    .button {
+        background-color: #4CAF50;
+        /* Màu nền của nút */
+        border: none;
+        color: white;
+        /* Màu chữ trên nút */
+        padding: 15px 32px;
+        /* Khoảng cách padding xung quanh chữ */
+        text-align: center;
+        /* Căn giữa chữ trong nút */
+        text-decoration: none;
+        /* Bỏ gạch chân của text nếu nút là một link */
+        display: inline-block;
+        /* Hiển thị nút dạng block nhưng vẫn trên cùng một dòng */
+        font-size: 16px;
+        /* Kích thước chữ */
+        margin: 4px 2px;
+        /* Khoảng cách margin xung quanh nút */
+        cursor: pointer;
+        /* Hiển thị con trỏ dạng tay khi di chuyển chuột lên trên nút */
+        border-radius: 4px;
+        /* Bo góc của nút */
+    }
+
+        .button:hover {
+            background-color: #45a049;
+            /* Màu nền của nút khi hover */
+        }
+</style>
+
+<div style="display:flex; justify-content: space-between">
+    <h1>View list of Account</h1>
+    <a class="button" asp-action="Index" asp-controller="CoffeeTables" asp-route-accId="@accountId">Home</a>
+</div>
+<p>
+    <a asp-action="AddAccount">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StaffName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Role)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StaffName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AccountId">Edit</a> |
+                
+                <a asp-action="Delete" asp-route-id="@item.AccountId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

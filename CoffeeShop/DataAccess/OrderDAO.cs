@@ -164,7 +164,7 @@ namespace DataAccess
             {
                 using var context = new CoffeeShopContext();
                 order = context.Orders.SingleOrDefault(o => o.TableId == tableId && o.OrderStatus == 0);
-                context.SaveChanges();
+                
             }
             catch (Exception ex)
             {

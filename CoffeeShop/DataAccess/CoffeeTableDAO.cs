@@ -128,22 +128,16 @@ namespace DataAccess
 
         #region  check table available
         // write a function to check table is available or not 
-        public bool CheckTableAvailable(int tableId)
+        public IEnumerable<Order>  CheckTableAvailable(int tableId)
         {
-            var check = from TableId in context.CoffeeTables
-                        join OrderStatus in context.Orders on TableId.TableId equals OrderStatus.TableId
-                        where OrderStatus.OrderStatus == 0 && TableId.TableId == tableId
-                        select new { TableId = tableId, OrderStatusSelect = OrderStatus.OrderStatus };
+            var check = from table in context.CoffeeTables
+                        join order in context.Orders on table.TableId equals order.TableId
+                        where order.OrderStatus == 0 && table.TableId == tableId
+                        select order;
+            //select new { TableId = tableId, OrderStatusSelect = OrderStatus.OrderStatus };
             var result = check.ToList();
-            if (result.Count == 0)
-            {
-               return false;
-            }
-            else
-            {
-                return true;
-            }
 
+            return result;
 
         }
 
