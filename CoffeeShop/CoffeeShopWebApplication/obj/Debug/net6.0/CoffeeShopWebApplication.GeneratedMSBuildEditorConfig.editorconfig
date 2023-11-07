@@ -9,16 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CoffeeShopWebApplication
 build_property.RootNamespace = CoffeeShopWebApplication
-build_property.ProjectDir = C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication\
+build_property.ProjectDir = D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWebApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Workspace\PRN211_Project\CoffeeShop\CoffeeShopWebApplication
+build_property.MSBuildProjectDirectory = D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-<<<<<<< HEAD
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Create.cshtml]
-=======
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Accounts/AddAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQWRkQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/CoffeeTables/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlVGFibGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -31,38 +56,38 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlVGFibGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/CoffeeTables/ViewListTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlVGFibGVzXFZpZXdMaXN0VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Create.cshtml]
->>>>>>> master
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Delete.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Details.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Edit.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Index.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Drinks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Home/Index.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Home/Privacy.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Shared/Error.cshtml]
-=======
 [D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/OrderDetails/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -81,6 +106,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/OrderDetails/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Orders/Announce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEFubm91bmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Orders/Create.cshtml]
@@ -103,23 +132,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Orders/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Shared/Error.cshtml]
->>>>>>> master
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/_ViewImports.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/_ViewStart.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Workspace/PRN211_Project/CoffeeShop/CoffeeShopWebApplication/Views/Shared/_Layout.cshtml]
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopWebApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-huwhobwb0u

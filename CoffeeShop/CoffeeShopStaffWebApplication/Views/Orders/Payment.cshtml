@@ -1,0 +1,223 @@
+﻿@model BusinessObject.Order
+
+@{
+    ViewData["Title"] = "Order detail table " + @ViewBag.TableId;
+}
+@{
+    var itemList = ViewData["ListDrink"] as List<BusinessObject.OrderDetail>;
+    var account = ViewData["Account"] as BusinessObject.Account;
+    var drinkList = ViewData["DrinkName"] as List<BusinessObject.Drink>;
+}
+<h1>Do you want to pay</h1>
+
+<h4>Table: @ViewBag.TableId</h4>
+<h4>Date: @Model.OrderDate</h4>
+<h4>Staff:@account.StaffName</h4>
+<style>
+    /* CSS cho overlay */
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    /* CSS cho popup */
+    .popup {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        max-width: 300px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* CSS cho nút đóng */
+    .close-btn {
+        background-color: #45a049;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 5px 10px;
+        cursor: pointer;
+        text-decoration: none;
+        
+    }
+
+    /* CSS cho nút bấm hiển thị popup */
+    
+
+    .button {
+        background-color: #4CAF50;
+        /* Màu nền của nút */
+        border: none;
+        color: white;
+        /* Màu chữ trên nút */
+        padding: 15px 32px;
+        /* Khoảng cách padding xung quanh chữ */
+        text-align: center;
+        /* Căn giữa chữ trong nút */
+        text-decoration: none;
+        /* Bỏ gạch chân của text nếu nút là một link */
+        display: inline-block;
+        /* Hiển thị nút dạng block nhưng vẫn trên cùng một dòng */
+        font-size: 16px;
+        /* Kích thước chữ */
+        margin: 4px 2px;
+        /* Khoảng cách margin xung quanh nút */
+        cursor: pointer;
+        /* Hiển thị con trỏ dạng tay khi di chuyển chuột lên trên nút */
+        border-radius: 4px;
+        /* Bo góc của nút */
+    }
+
+        .button:hover {
+            background-color: #45a049;
+            /* Màu nền của nút khi hover */
+        }
+</style>
+
+<table class="table" id="myTable">
+    <thead>
+        <tr>
+            <th>
+                Ten nuoc uong
+            </th>
+            <th>
+                So luong
+            </th>
+            <th>
+                don gia
+            </th>
+            <th>
+                thanh tien
+            </th>
+            <th>
+                note
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @if (itemList == null)
+        {
+            <tr><h> khong co san pham nao</h></tr>
+
+        }
+        else
+        {
+            @foreach (var item in itemList)
+            {
+                <tr>
+                    <td>
+                        @foreach (var name in drinkList)
+                        {
+                            if (name.DrinkId == item.DrinkId)
+                            {
+                                <p>@name.DrinkName</p>
+                            }
+                        }
+
+                    </td>
+                    <td>
+                        @item.Quantity
+                    </td>
+                    <td>
+                        @foreach (var name in drinkList)
+                        {
+                            if (name.DrinkId == item.DrinkId)
+                            {
+                                var formattedPrice = string.Format("{0:N0} VND", @name.Price);
+
+                                <p>@formattedPrice</p>
+                            }
+                        }
+
+                    </td>
+                    <td>
+                        @foreach (var name in drinkList)
+                        {
+                            if (name.DrinkId == item.DrinkId)
+                            {
+                                <p hidden class="price">@(name.Price * item.Quantity)</p>
+
+                                var formattedPrice2 = string.Format("{0:N0} VND", name.Price * item.Quantity);
+                                <p>@formattedPrice2</p>
+
+                                @* <p class="price">@(name.Price * item.Quantity)</p> *@
+
+                            }
+
+
+                        }
+                    </td>
+                    <td>
+                        @item.DrinkNote
+                    </td>
+
+                </tr>
+
+            }
+            <tr>
+                <td><a asp-controller="OrderDetails" asp-action="CreateNew" asp-route-orderId="@ViewBag.OrderId">Back to order</a></td>
+                <td></td>
+                <td>Tong</td>
+                <td><span id="totalPrice">0</span></td>
+                <td>
+                    @* <a asp-controller="Orders" asp-action="EditStatus" asp-route-orderId="@ViewBag.OrderId">Pay</a> *@
+
+                    <a href="#" class="button show-popup">Pay</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+<div class="overlay" id="popup-overlay">
+    <!-- Popup -->
+    <div class="popup">
+        <h2>Successfully!</h2>
+        <p>Your bill is created .</p>
+        <!-- Nút đóng popup -->
+        <a class="close-btn" id="close-popup" asp-controller="Orders" asp-action="EditStatus" asp-route-orderId="@ViewBag.OrderId">Close</a>
+    </div>
+</div>
+<script>
+    function calculateTotal() {
+        const showPopupLink = document.querySelector('.show-popup');
+        const popupOverlay = document.getElementById('popup-overlay');
+        const closePopupBtn = document.getElementById('close-popup');
+
+        showPopupLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            popupOverlay.style.display = 'flex'; // Hiển thị overlay
+        });
+
+        closePopupBtn.addEventListener('click', () => {
+            popupOverlay.style.display = 'none'; // Ẩn overlay khi nút đóng được bấm
+        });
+
+
+        var prices = document.querySelectorAll('#myTable .price');
+        var total = 0;
+
+        prices.forEach(function (price) {
+            total += parseFloat(price.innerText);
+        });
+        var formatter = new Intl.NumberFormat('en-US', {
+            style: 'decimal',
+            maximumFractionDigits: 0
+        });
+
+        document.getElementById('totalPrice').innerText = formatter.format(total);
+    }
+
+    // Tính toán tổng khi trang web được tải
+    window.onload = calculateTotal;
+</script>

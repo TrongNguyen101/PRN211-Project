@@ -1,0 +1,85 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Screen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+            .login-container h2 {
+                text-align: center;
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+        .form-input {
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+            .form-input input {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 3px;
+                box-sizing: border-box; /* Added for proper padding calculation */
+            }
+
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #5cb85c;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-top: 10px;
+        }
+
+            .login-button:hover {
+                background-color: #4cae4c;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form asp-action="Create" asp-controller="Accounts" method="post">
+            <h3>@TempData["MessageErrorPassOrEmail"]</h3>
+            <div class="form-input">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter username">
+            </div>
+            <div class="form-input">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Mật khẩu của quý khách">
+            </div>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>

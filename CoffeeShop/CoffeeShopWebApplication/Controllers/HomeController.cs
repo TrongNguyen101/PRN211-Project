@@ -15,6 +15,11 @@ namespace CoffeeShopWebApplication.Controllers
 
         public IActionResult Index()
         {
+            if (HttpContext.Session.GetString("staffName") != null && HttpContext.Session.GetInt32("accountID") != null)
+            {
+                HttpContext.Session.Remove("staffName");
+                HttpContext.Session.Remove("accountID");
+            }
             return View();
         }
 

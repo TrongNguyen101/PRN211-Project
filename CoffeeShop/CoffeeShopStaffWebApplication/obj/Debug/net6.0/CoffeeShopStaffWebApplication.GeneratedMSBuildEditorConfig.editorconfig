@@ -1,0 +1,157 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CoffeeShopStaffWebApplication
+build_property.RootNamespace = CoffeeShopStaffWebApplication
+build_property.ProjectDir = D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopStaffWebApplication\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Filecode_lap_Acer\Fall2023\PRN211\Project\PRN211-Project\CoffeeShop\CoffeeShopStaffWebApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Accounts/AddAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQWRkQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/CoffeeTables/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlVGFibGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/CoffeeTables/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlVGFibGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/CoffeeTables/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlVGFibGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/CoffeeTables/ViewListTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29mZmVlVGFibGVzXFZpZXdMaXN0VGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Drinks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Drinks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Drinks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Drinks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Drinks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpbmtzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/OrderDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/OrderDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/OrderDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/OrderDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/OrderDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Orders/Announce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEFubm91bmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Orders/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Filecode_lap_Acer/Fall2023/PRN211/Project/PRN211-Project/CoffeeShop/CoffeeShopStaffWebApplication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pb23n581os

@@ -1,0 +1,100 @@
+﻿@model IEnumerable<BusinessObject.CoffeeTable>
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var listOrder = ViewData["listTableHaveOrder"] as IEnumerable<BusinessObject.Order>;
+}
+@{
+    ViewData["Title"] = "ViewListTable";
+
+    string staffName = HttpContextAccessor.HttpContext.Session.GetString("staffName");
+    int? accountId = HttpContextAccessor.HttpContext.Session.GetInt32("accountID");
+
+}
+<style>
+    .button {
+        background-color: #4CAF50;
+        /* Màu nền của nút */
+        border: none;
+        color: white;
+        /* Màu chữ trên nút */
+        padding: 15px 32px;
+        /* Khoảng cách padding xung quanh chữ */
+        text-align: center;
+        /* Căn giữa chữ trong nút */
+        text-decoration: none;
+        /* Bỏ gạch chân của text nếu nút là một link */
+        display: inline-block;
+        /* Hiển thị nút dạng block nhưng vẫn trên cùng một dòng */
+        font-size: 16px;
+        /* Kích thước chữ */
+        margin: 4px 2px;
+        /* Khoảng cách margin xung quanh nút */
+        cursor: pointer;
+        /* Hiển thị con trỏ dạng tay khi di chuyển chuột lên trên nút */
+        border-radius: 4px;
+        /* Bo góc của nút */
+    }
+
+        .button:hover {
+            background-color: #45a049;
+            /* Màu nền của nút khi hover */
+        }
+</style>
+
+
+<div style="display:flex; justify-content: space-between">
+    <h1>View list of Table</h1>
+    <a class="button" asp-action="Index" asp-controller="CoffeeTables" asp-route-accId="@accountId">Home</a>
+</div>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TableNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TableNumber)
+                </td>
+                <td>
+                    @{
+                        bool check = false;
+
+                        foreach (var order in listOrder)
+                        {
+                            if (item.TableId == order.TableId)
+                            {
+                                check = true;
+                            }
+
+                        }
+                        if (check)
+                        {
+                            <div class="table">
+                                <p style="margin:0;">Table is being used</p>
+                            </div>
+
+                        }
+                        else
+                        {
+                            <div class="tableAvailable">
+                                <a asp-action="Delete" asp-route-id="@item.TableId">Delete</a>
+                            </div>
+                        }
+                    }
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

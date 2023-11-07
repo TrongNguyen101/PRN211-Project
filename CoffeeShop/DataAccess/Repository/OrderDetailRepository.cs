@@ -12,7 +12,7 @@ namespace DataAccess.Repository
     {
         public IEnumerable<OrderDetail> GetOrderDetail(int orderId) => OrderDetailDAO.Instance.GetOrderDetail(orderId);
         public void AddDrinkDetail(OrderDetail drinkDetail) => OrderDetailDAO.Instance.AddDrinkDetail(drinkDetail);
-        public void UpdateDrinkDetail(int orderId, int drinkId) => OrderDetailDAO.Instance.UpdateOrderDetail(orderId,drinkId);
+        public void UpdateDrinkDetail(OrderDetail drinkDetail) => OrderDetailDAO.Instance.UpdateOrderDetail(drinkDetail);
         public void DeleteDrinkDetail(int orderId, int drinkId) => OrderDetailDAO.Instance.DeleteOrderDetail(orderId, drinkId);
         public OrderDetail GetOrderDetailByIdDrinkAndOrder(int orderId, int drinkId) => OrderDetailDAO.Instance.GetOrderDetailByIdDrinkAndOrder(orderId,drinkId);
     }
